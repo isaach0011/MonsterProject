@@ -15,6 +15,10 @@ public class MonsterController
 	{
 		System.out.println("We made monsters today!");
 		System.out.println("Here is mine " + firstMonster);
+		System.out.println("He has " + firstMonster.getEyeCount() + " eyes.");
+		System.out.println("He has " + firstMonster.getLegCount() + " legs. ");
+		System.out.println("He has " + firstMonster.getNoseCount() + " nose.");
+		System.out.println("Does he have hair? " + firstMonster.getHasHair() + ".");
 	}
 	
 	/*

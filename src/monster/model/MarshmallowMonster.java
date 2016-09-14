@@ -29,6 +29,39 @@ public class MarshmallowMonster
 		this.hasHair = hasHair;
 	}
 	
+	public String toString()
+	{
+		String description = "Monster says: Name is " + name;
+		
+		return description;
+	}
+	
+	public String getName()
+	{
+		return name;
+	}
+	
+	public boolean getHasHair()
+	{
+		return hasHair;
+	}
+	
+	public int getLegCount()
+	{
+		return legCount;
+
+	}
+	
+	public int getNoseCount()
+	{
+		return noseCount;
+	}
+	
+	public int getEyeCount()
+	{
+		return eyeCount;
+	}
+	
 	/*
 	 * Monster name is Jeffery
 	 * has .5 arms
