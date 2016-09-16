@@ -19,6 +19,7 @@ public class MonsterController
 		System.out.println("He has " + firstMonster.getLegCount() + " legs. ");
 		System.out.println("He has " + firstMonster.getNoseCount() + " nose.");
 		System.out.println("Does he have hair? " + firstMonster.getHasHair() + ".");
+		System.out.println("He has " + firstMonster.getArmCount() + " arms.");
 	}
 	
 	/*

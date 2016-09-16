@@ -62,6 +62,41 @@ public class MarshmallowMonster
 		return eyeCount;
 	}
 	
+	public double getArmCount()
+	{
+		return armCount;
+	}
+	
+	public void setName(String name)
+	{
+		this.name = name;
+	}
+	
+	public void setHasHair(boolean hasHair)
+	{
+		this.hasHair = hasHair;
+	}
+	
+	public void setLegCount(int legCount)
+	{
+		this.legCount = legCount;
+	}
+	
+	public void setNoseCount(int noseCount)
+	{
+		this.noseCount = noseCount;
+	}
+	
+	public void setEyeCount(int eyeCount)
+	{
+		this.eyeCount = eyeCount;
+	}
+	
+	public void setArmCount(double armCount)
+	{
+		this.armCount = armCount;
+	}
+	
 	/*
 	 * Monster name is Jeffery
 	 * has .5 arms
