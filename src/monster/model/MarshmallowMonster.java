@@ -87,9 +87,9 @@ public class MarshmallowMonster
 		this.noseCount = noseCount;
 	}
 	
-	public void setEyeCount(int eyeCount)
+	public void setEyeCount(int eyeInput)
 	{
-		this.eyeCount = eyeCount;
+		this.eyeCount = eyeInput;
 	}
 	
 	public void setArmCount(double armCount)
